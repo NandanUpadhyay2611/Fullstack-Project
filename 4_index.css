@@ -1,0 +1,72 @@
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.n{
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    background-color: #00d5ff;
+    
+}
+.n:hover{
+    background-color: #b5e9f4;
+    box-shadow: 0 0 4px #00d5ff;
+
+    
+    padding: 12px, 48px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: aliceblue;
+    background: linear-gradient(to right, #4d4d4d 0, #00d5ff 10%, #fff 14%, #4d4d4d 25%);
+
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite forwards;
+    -webkit-text-size-adjust: none;
+   
+}
+.video{
+    justify-content: center;
+    
+    position: absolute;
+    top: 0%;
+    left: 33%;
+}
+
+.btn-shine{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding: 12px, 48px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: aliceblue;
+    background: linear-gradient(to right, #4d4d4d 0, #00d5ff 10%, #fff 14%, #4d4d4d 25%);
+
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 700;
+    font-size: 43px;
+
+
+
+}
+@-webkit-keyframes shine{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 290px;
+    }
+}
